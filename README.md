@@ -1,7 +1,6 @@
 General Practices for Reproducibility
 ===========
 Focusing on project documentations and script comments using Github.
-
 ##### Myeong Lee (myeong@umd.edu)
 ****
 
