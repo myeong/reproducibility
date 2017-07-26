@@ -50,23 +50,25 @@ LICENSE.md
 	- Good documentation of each code block.
 	- Can export the overall work as a HTML file.
 	- When running scripts on clouds, .R might work better.
+* Make `function`s if possible
 * R Docstring
 	- [docstring library](https://github.com/dasonk/docstring)
-* Make a function if possible
 * In-line comments
-* Specify R version correctly
+* Specify the R version correctly
 
 
 ## Python
 * Jupyter for development along with Markdown comments ([Anaconda](https://www.continuum.io/downloads))
+* Virtual environment for converting different versions of Python (e.g., [Anaconda Tutorial](https://conda.io/docs/using/envs.html))
+* Once a set of functions are completed and ready for distribution, convert them to `.py` with docstrings, and save them in a separate location so they can be used by just importing the package (e.g., `src/python/`)
 * Python Docstring
 	- [Sphinx](http://www.sphinx-doc.org/en/stable/)
-		- http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+		- e.g., http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 	- [PyDoc](https://docs.python.org/2/library/pydoc.html)
 * Automatic testing
 	- [Nose](http://nose.readthedocs.io/en/latest/)
 * In-line comments
-* Specify R version correctly
+* Specify the Python version correctly (2.x and 3.x are a LOT different).
 
 
 ## Web Applications
@@ -79,7 +81,8 @@ LICENSE.md
 * It's the best if you can provide software architecture docs
 	- [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
 	- Functions documentation.
+* In-line comments
 
 
-## Contribution is Welcomed
+## Contributions are Welcomed
 This seminar covers only part of the reproducibility topics, so any further practicies/concerns through pull requests are welcomed.
