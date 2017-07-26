@@ -1,7 +1,7 @@
 General Practices for Reproducibility
 ===========
 Focusing on project documentations and script comments using Github.
-----------
+
 ##### Myeong Lee (myeong@umd.edu)
 ****
 
@@ -16,9 +16,11 @@ In this seminar, we focus on popular scripting languages and tools for data anal
 ## General Things to Concern for Reproducibility
 * Folder structure matters.
 * Markdown documentation
+	- Userful tools: [MacDown](https://macdown.uranusjr.com/), [MarkdownPad](http://markdownpad.com/)
 	- Rmd: R Markdown
 	- Jupyter: Supporting Markdown for Python and R
 	- Github: Markdown is the default format for README files.
+# [A project introduction webpage using Github](https://pages.github.com/)
 * Docstring
 * Testing
 * Web-based presentations of the project
@@ -28,14 +30,14 @@ In this seminar, we focus on popular scripting languages and tools for data anal
 ## General Folder Structure
 ```
 -src
-	+R
-	+python
-	+jupyter	
+  +R
+  +python
+  +jupyter	
 -doc
-	+...Markdown documents
+  +...Markdown documents
 -data
-	+input
-	+results (empty)
+  +input
+  +results (empty)
 -html
 -vm (Vagrant, Docker, or other environment configuration files)
 
@@ -58,7 +60,7 @@ LICENSE.md
 
 
 ## Python
-* Jupyter for development along with Markdown comments 
+* Jupyter for development along with Markdown comments ([Anaconda](https://www.continuum.io/downloads))
 * Python Docstring
 	- [Sphinx](http://www.sphinx-doc.org/en/stable/)
 		- http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
