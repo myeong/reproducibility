@@ -1,8 +1,9 @@
 General Practices for Reproducibility
 ===========
 Focusing on project documentations and script comments using Github.
-Myeong Lee (myeong@umd.edu)
 ----------
+##### Myeong Lee (myeong@umd.edu)
+****
 
 ## Basic premises
 * Scientific work needs to be reproducible by others (easily!).
@@ -73,9 +74,9 @@ LICENSE.md
 * Specify PHP, Apache, Database, and Javascript versions correctly
 * Provide step-by-step instructions to set up the development environment.
 * A better way of making system configurations consistent: Virtual Machines + Auto Configurations
-	- Vagrant 
-	- Docker
-	- Ansible
+	- [Vagrant](https://www.vagrantup.com/)
+	- [Docker](https://www.docker.com/)
+	- [Ansible](https://github.com/ansible/ansible)
 * It's the best if you can provide software architecture docs
 	- [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
 	- Functions documentation.
