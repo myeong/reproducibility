@@ -1,8 +1,9 @@
-General Practices for Reproducibility
+# General Practices for Reproducibility
 ****
 This seminar focuses on popular scripting languages and tools for data analysis - Python, R, and web development platforms, and the management of them using Github. This covers only part of reproducibilty topics. 
 ##### Myeong Lee (myeong@umd.edu)
-======
+
+-------
 
 ## Basic premises
 * Scientific work needs to be reproducible by others (easily!).
