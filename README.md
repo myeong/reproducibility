@@ -19,7 +19,7 @@ In this seminar, we focus on popular scripting languages and tools for data anal
 	- Rmd: R Markdown
 	- Jupyter: Supporting Markdown for Python and R
 	- Github: Markdown is the default format for README files.
-# [A project introduction webpage using Github](https://pages.github.com/)
+* [A project introduction webpage using Github](https://pages.github.com/)
 * Docstring
 * Testing
 * Web-based presentations of the project
