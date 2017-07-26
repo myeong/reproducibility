@@ -1,16 +1,14 @@
 General Practices for Reproducibility
-===========
-Focusing on project documentations and script comments using Github.
-##### Myeong Lee (myeong@umd.edu)
 ****
+This seminar focuses on popular scripting languages and tools for data analysis - Python, R, and web development platforms, and the management of them using Github. This covers only part of reproducibilty topics. 
+##### Myeong Lee (myeong@umd.edu)
+======
 
 ## Basic premises
 * Scientific work needs to be reproducible by others (easily!).
 * Your code/data analysis/platform needs to be easily run/installed by newbies. 
 * Reproducibility vs. Replicability: http://www.site.uottawa.ca/ICML09WS/papers/w2.pdf
 
-## Focus
-In this seminar, we focus on popular scripting languages and tools for data analysis - Python, R, and web development platforms, and the management of them using Github. This covers only part of reproducibilty topics. 
 
 ## General Things to Concern for Reproducibility
 * Folder structure matters.
@@ -19,6 +17,7 @@ In this seminar, we focus on popular scripting languages and tools for data anal
 	- Rmd: R Markdown
 	- Jupyter: Supporting Markdown for Python and R
 	- Github: Markdown is the default format for README files.
+	- Using Markdown pages as index to ohter resources (e.g., a link in a MD file -> a Google Drive folder)
 * [A project introduction webpage using Github](https://pages.github.com/)
 * Docstring
 * Testing
@@ -28,16 +27,16 @@ In this seminar, we focus on popular scripting languages and tools for data anal
 
 ## General Folder Structure
 ```
--src
-  +R
-  +python
-  +jupyter	
--doc
-  +...Markdown documents
--data
-  +input
-  +results (empty)
--html
++src
+  -R
+  -python
+  -jupyter	
++doc
+  -...Markdown documents
++data
+  -input
+  -results (empty)
++html
 -vm (Vagrant, Docker, or other environment configuration files)
 
 .gitignore (including confidential files and script results)
@@ -70,7 +69,6 @@ LICENSE.md
 * Specify R version correctly
 
 
-
 ## Web Applications
 * Specify PHP, Apache, Database, and Javascript versions correctly
 * Provide step-by-step instructions to set up the development environment.
@@ -82,3 +80,6 @@ LICENSE.md
 	- [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
 	- Functions documentation.
 
+
+## Contribution is Welcomed
+This seminar covers only part of the reproducibility topics, so any further practicies/concerns through pull requests are welcomed.
